@@ -27,6 +27,7 @@ main(void)
   consoleinit();   // console hardware
   uartinit();      // serial port
   pinit();         // process table
+  cprintf("HELLO WORLD I HAVE PRINTED FROM THE KERNEL\n");
   tvinit();        // trap vectors
   binit();         // buffer cache
   fileinit();      // file table
